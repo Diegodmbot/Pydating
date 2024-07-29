@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pydating</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script
+      type="module"
+      src="https://pyscript.net/releases/2024.7.1/core.js"
+    ></script>
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  </head>
+  <body>
+    <h1>Pydating Game✨</h1>
+    <script type="py" src="./main.py" config="./pyscript.json"></script>
+    <div class="keys">
+      <img
+        src="assets/label.svg"
+        class="key red-key"
+        id="red-key"
+        py-click="key_clicked"
+      />
+      <img
+        src="assets/label.svg"
+        class="key green-key"
+        id="green-key"
+        py-click="key_clicked"
+      />
+      <img
+        src="assets/label.svg"
+        class="key blue-key"
+        id="blue-key"
+        py-click="key_clicked"
+      />
+      <img
+        src="assets/label.svg"
+        class="key yellow-key"
+        id="yellow-key"
+        py-click="key_clicked"
+      />
+    </div>
+    <div id="output"></div>
+  </body>
+</html>

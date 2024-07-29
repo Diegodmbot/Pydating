@@ -1,0 +1,37 @@
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+}
+
+.key {
+  max-width: 200px;
+}
+
+.red-key {
+  filter: invert(18%) sepia(86%) saturate(6816%) hue-rotate(358deg)
+    brightness(114%) contrast(116%);
+  transform: translate(100%, 0);
+}
+
+.green-key {
+  filter: invert(66%) sepia(89%) saturate(3976%) hue-rotate(78deg)
+    brightness(124%) contrast(141%);
+  transform: rotate(90deg) translate(-30%, -30%);
+}
+
+.blue-key {
+  filter: invert(10%) sepia(89%) saturate(6773%) hue-rotate(247deg)
+    brightness(96%) contrast(147%);
+  transform: rotate(270deg) translate(-30%, -70%);
+}
+
+.yellow-key {
+  filter: invert(97%) sepia(84%) saturate(1599%) hue-rotate(9deg)
+    brightness(112%) contrast(98%);
+  transform: rotate(180deg) translate(140%, 0);
+}
