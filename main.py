@@ -1,6 +1,5 @@
-from pyscript.web import dom  # type: ignore
-from pyscript.web.elements import *  # type: ignore
-from pyscript import document
+from pyscript.web import dom
+from pyscript.web.elements import *
 
 
 def key_clicked(event):
