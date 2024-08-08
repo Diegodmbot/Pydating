@@ -3,33 +3,57 @@ h1 {
   text-align: center;
 }
 
-.keys {
+.btn-container {
   display: flex;
   justify-content: center;
 }
 
-.key {
+.btn {
   padding: 50px 50px;
   margin: 10px;
+  transition: background-color 0.3s;
+  &:hover {
+    scale: 1.1;
+  }
 }
 
-.key:hover {
-  transform: scale(1.1);
-  transition: transform 0.1s;
+.game {
+  display: grid;
 }
 
-.red-key {
-  background-color: red;
+.start-btn {
+  justify-self: center;
+  max-width: 50px;
 }
 
-.green-key {
-  background-color: green;
+#red-btn {
+  background-color: rgb(139, 0, 0);
 }
 
-.blue-key {
-  background-color: blue;
+#red-btn-highlight {
+  background-color: rgb(255, 0, 0);
 }
 
-.yellow-key {
-  background-color: yellow;
+#green-btn {
+  background-color: rgb(0, 139, 0);
+}
+
+#green-btn-highlight {
+  background-color: rgb(0, 255, 0);
+}
+
+#blue-btn {
+  background-color: rgb(0, 0, 139);
+}
+
+#blue-btn-highlight {
+  background-color: rgb(0, 0, 255);
+}
+
+#yellow-btn {
+  background-color: rgb(139, 139, 0);
+}
+
+#yellow-btn-highlight {
+  background-color: rgb(255, 255, 0);
 }

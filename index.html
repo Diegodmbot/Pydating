@@ -10,17 +10,18 @@
       type="module"
       src="https://pyscript.net/releases/2024.7.1/core.js"
     ></script>
-    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
   </head>
   <body>
     <h1>Pydating Game✨</h1>
     <script type="py" src="./main.py" config="./pyscript.json"></script>
-    <div class="keys">
-      <button class="key red-key" id="red-key" py-click="key_clicked" />
-      <button class="key green-key" id="green-key" py-click="key_clicked" />
-      <button class="key blue-key" id="blue-key" py-click="key_clicked" />
-      <button class="key yellow-key" id="yellow-key" py-click="key_clicked" />
-    </div>
-    <div id="output"></div>
+    <main class="game">
+      <div class="btn-container" id="simon-board">
+        <button class="btn" id="red-btn" py-click="key_clicked" />
+        <button class="btn" id="green-btn" py-click="key_clicked" />
+        <button class="btn" id="blue-btn" py-click="key_clicked" />
+        <button class="btn" id="yellow-btn" py-click="key_clicked" />
+      </div>
+      <button class="start-btn" py-click="start_clicked">Start</button>
+    </main>
   </body>
 </html>
