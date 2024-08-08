@@ -3,9 +3,19 @@ h1 {
   text-align: center;
 }
 
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+}
+
+.game {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
 .btn-container {
   display: flex;
-  justify-content: center;
 }
 
 .btn {
@@ -15,10 +25,6 @@ h1 {
   &:hover {
     scale: 1.1;
   }
-}
-
-.game {
-  display: grid;
 }
 
 .start-btn {
