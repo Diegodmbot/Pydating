@@ -16,6 +16,7 @@ p {
 
 .btn-container {
   display: flex;
+  margin-bottom: 16px;
 }
 
 .btn {
